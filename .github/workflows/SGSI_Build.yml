@@ -10,7 +10,7 @@ on:
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_LIME_21.1.5__11.0.zip'
+        default: 'miui_LIME_21.1.5_c1645b4618_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
