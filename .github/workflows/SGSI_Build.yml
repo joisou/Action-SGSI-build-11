@@ -87,8 +87,8 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/Tool-SGSI-build
           pwd
-          zip -r AB_9.-i SGSI/*
-          ls "AB_${{ github.event.inputs.REPACK_NAME }}"
+          zip -r AB_AB_SGSI.zip.-i SGSI/*
+          ls "AB_AB_SGSI.zip
           echo "--------------------------------------"
           ls
           echo "--------------------------------------"
