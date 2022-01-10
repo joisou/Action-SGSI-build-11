@@ -22,7 +22,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'AB_SGSI.zip'
+        default: 'AB_9_SGSI.zip'
 
 
 
@@ -116,8 +116,8 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/Tool-SGSI-build
           pwd
-          zip -r AONLY_${{ github.event.inputs.REPACK_NAME }}.-i SGSI/*
-          ls "AONLY_${{ github.event.inputs.REPACK_NAME }}"
+          zip -r AONLY_${{ github.event.inputs.AB_9_SGSI.zip }} SGSI/*
+          ls "AONLY_${{ github.event.inputs.AB_9_SGSI.zip }}"
           echo "--------------------------------------"
           ls
           echo "--------------------------------------"
