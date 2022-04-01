@@ -18,7 +18,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: '11-AB-SGSI.zip'
+        default: 'AB_SGSI.zip'
 
 
 
