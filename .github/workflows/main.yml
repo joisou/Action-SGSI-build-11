@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://bigota.d.miui.com/22.1.5/miui_LIME_22.1.5_c1645b4618_11.0.zip'
+        default: 'https://bigota.d.miui.com/V13.0.4.0.RKCCNXM/miui_VEUX_V13.0.4.0.RKCCNXM_caafe3fa2c_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_LIME_22.1.5_c1645b4618_11.0.zip'
+        default: 'miui_VEUX_V13.0.4.0.RKCCNXM_caafe3fa2c_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
@@ -18,7 +18,7 @@ on:
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: '9_SGSI.zip'
+        default: '11_SGSI.zip'
 
 
 
